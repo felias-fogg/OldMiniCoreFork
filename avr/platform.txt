@@ -6,7 +6,7 @@
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification
 
 name=MiniCore
-version=2.2.2
+version=2.3.0+debug
 
 # AVR compile variables
 # ---------------------
@@ -91,10 +91,12 @@ recipe.hooks.savehex.presavehex.1.pattern.windows="{runtime.platform.path}/scrip
 recipe.hooks.savehex.presavehex.2.pattern.windows=cmd /C copy "{build.path}\{build.project_name}_{build.mcu}_{build.f_cpu}.lst" "{sketch_path}"
 recipe.hooks.savehex.presavehex.1.pattern.linux=chmod +x "{runtime.platform.path}/scripts/delete_merged_output.sh"
 recipe.hooks.savehex.presavehex.2.pattern.linux="{runtime.platform.path}/scripts/delete_merged_output.sh" {build.export_merged_output} "{build.path}/{build.project_name}.with_bootloader.hex"
-recipe.hooks.savehex.presavehex.3.pattern.linux=cp "{build.path}/{build.project_name}_{build.mcu}_{build.f_cpu}.lst" "{sketch_path}"
+recipe.hooks.savehex.presavehex.3.pattern.linux=chmod +x "{runtime.platform.path}/scripts/savecp.sh"
+recipe.hooks.savehex.presavehex.4.pattern.linux={runtime.platform.path}/scripts/savecp.sh "{build.path}/{build.project_name}_{build.mcu}_{build.f_cpu}.lst" "{sketch_path}"
 recipe.hooks.savehex.presavehex.1.pattern.macosx=chmod +x "{runtime.platform.path}/scripts/delete_merged_output.sh"
 recipe.hooks.savehex.presavehex.2.pattern.macosx="{runtime.platform.path}/scripts/delete_merged_output.sh" {build.export_merged_output} "{build.path}/{build.project_name}.with_bootloader.hex"
-recipe.hooks.savehex.presavehex.3.pattern.macosx=cp "{build.path}/{build.project_name}_{build.mcu}_{build.f_cpu}.lst" "{sketch_path}"
+recipe.hooks.savehex.presavehex.3.pattern.macosx=chmod +x "{runtime.platform.path}/scripts/savecp.sh"
+recipe.hooks.savehex.presavehex.4.pattern.macosx={runtime.platform.path}/scripts/savecp.sh "{build.path}/{build.project_name}_{build.mcu}_{build.f_cpu}.lst" "{sketch_path}"
 
 ## Compute size
 recipe.size.pattern="{compiler.path}{compiler.size.cmd}" -A "{build.path}/{build.project_name}.elf"
@@ -143,3 +145,10 @@ tools.avrdude_remote.upload.pattern=/usr/bin/run-avrdude /tmp/sketch.hex {upload
 # - from numeric vendor ID, set to Unknown otherwise
 build.usb_manufacturer="Unknown"
 build.usb_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid} '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'
+
+# copy ELF file to sketch folder
+recipe.hooks.savehex.postsavehex.1.pattern.linux=chmod +x "{runtime.platform.path}/scripts/savecp.sh"
+recipe.hooks.savehex.postsavehex.2.pattern.linux={runtime.platform.path}/scripts/savecp.sh "{build.path}/{build.project_name}.elf" "{sketch_path}"
+recipe.hooks.savehex.postsavehex.1.pattern.macosx=chmod +x "{runtime.platform.path}/scripts/savecp.sh"
+recipe.hooks.savehex.postsavehex.2.pattern.macosx={runtime.platform.path}/scripts/savecp.sh "{build.path}/{build.project_name}.elf" "{sketch_path}"
+recipe.hooks.savehex.postsavehex.1.pattern.windows=cmd /C copy "{build.path}\{build.project_name}.elf" "{sketch_path}"
