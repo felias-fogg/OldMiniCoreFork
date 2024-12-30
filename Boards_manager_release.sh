@@ -86,7 +86,7 @@ jq -r                                   \
     {
       "packager": "MiniCore",
       "name": "avrdude",
-      "version": "7.1-arduino.1"
+      "version": "8.0-arduino.1"
     },
     {
       "packager": "arduino",
@@ -94,7 +94,7 @@ jq -r                                   \
       "version": "1.3.0"
     },
     {
-      "packager": "dw-link",
+      "packager": "MiniCore",
       "name": "dw-link-tools",
       "version": "1.3.0"
     }   
