@@ -10,6 +10,12 @@ version=3.0.3
 # AVR compile variables
 # ---------------------
 
+# EXPERIMENTAL feature: optimization flags
+#  - this is alpha and may be subject to change without notice
+compiler.optimization_flags=-Os
+compiler.optimization_flags.release=-Os
+compiler.optimization_flags.debug=-Og -g3
+
 compiler.warning_flags=
 compiler.warning_flags.none=-w
 compiler.warning_flags.default=
@@ -19,12 +25,12 @@ compiler.warning_flags.all=-Wall -Wextra
 # Default "compiler.path" is correct, change only if you want to override the initial value
 compiler.path={runtime.tools.avr-gcc.path}/bin/
 compiler.c.cmd=avr-gcc
-compiler.c.flags=-c -g -Os {compiler.warning_flags} -std=gnu11 -ffunction-sections -fdata-sections -MMD
-compiler.c.elf.flags={compiler.warning_flags} -Os -Wl,--gc-sections
+compiler.c.flags=-c -g  {compiler.optimization_flags}  {compiler.warning_flags} -std=gnu11 -ffunction-sections -fdata-sections -MMD
+compiler.c.elf.flags={compiler.warning_flags}  {compiler.optimization_flags}  -Wl,--gc-sections
 compiler.c.elf.cmd=avr-gcc
 compiler.S.flags=-c -g -x assembler-with-cpp
 compiler.cpp.cmd=avr-g++
-compiler.cpp.flags=-c -g -Os {compiler.warning_flags} -std=gnu++17 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD
+compiler.cpp.flags=-c -g  {compiler.optimization_flags}  {compiler.warning_flags} -std=gnu++17 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD
 compiler.ar.cmd={ltoarcmd}
 compiler.ar.flags=rcs
 compiler.objcopy.cmd=avr-objcopy
@@ -146,3 +152,17 @@ tools.avrdude_remote.upload.pattern=/usr/bin/run-avrdude /tmp/sketch.hex {upload
 # - from numeric vendor ID, set to Unknown otherwise
 build.usb_manufacturer="Unknown"
 build.usb_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid} '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'
+
+# Debugger configuration (general options)
+# ----------------------------------------
+debug.executable={build.path}/{build.project_name}.elf
+debug.toolchain=gcc
+debug.toolchain.path={runtime.tools.dw-link-tools.path}
+
+debug.server=openocd
+debug.server.openocd.path={debug.toolchain.path}/dw-server
+#doesn't matter, but should be specified so that cortex-debug is happy
+debug.server.openocd.script=doesnotmatter
+debug.cortex-debug.custom.gdbPath={debug.toolchain.path}/avr-gdb
+debug.cortex-debug.custom.objdumpPath={runtime.tools.avr-gcc.path}/avr-objdump
+debug.cortex-debug.custom.serverArgs.0=-sdebug.cortex-debug.custom.serverArgs.1=noopdebug.cortex-debug.custom.serverArgs.2=-pdebug.cortex-debug.custom.serverArgs.3=50000debug.cortex-debug.custom.postLaunchCommands.0=monitor mcu {build.mcu}debug.cortex-debug.custom.postLaunchCommands.1=break setup

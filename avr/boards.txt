@@ -1103,3 +1103,57 @@ menu.baudrate=Baud rate
 8.menu.clock.1MHz_internal.bootloader.sut_cksel_bits=100001
 8.menu.clock.1MHz_internal.bootloader.ckopt_bit=1
 8.menu.clock.1MHz_internal.build.f_cpu=1000000L
+#################### DEBUG FLAG HANDLING ####################
+menu.debug=Debug Compile Flags
+
+328.menu.debug.os=No Debug
+328.menu.debug.os.build.debug=
+328.menu.debug.og=Debug
+328.menu.debug.og.build.debug=-g3 -Og
+328.menu.debug.o0=Debug (no comp. optim.)
+328.menu.debug.o0.build.debug=-g3 -O0
+328.menu.debug.no-lto=Debug (no LTO)
+328.menu.debug.no-lto.build.debug=-g3 -Og -fno-lto
+328.menu.debug.no-ltoo0=Debug (no LTO, no comp. optim.)
+328.menu.debug.no-ltoo0.build.debug=-g3 -O0 -fno-lto
+328.build.extra_flags={build.debug} {build.clkpr}
+
+168.menu.debug.os=No Debug
+168.menu.debug.os.build.debug=
+168.menu.debug.og=Debug
+168.menu.debug.og.build.debug=-g3 -Og
+168.menu.debug.o0=Debug (no comp. optim.)
+168.menu.debug.o0.build.debug=-g3 -O0
+168.menu.debug.no-lto=Debug (no LTO)
+168.menu.debug.no-lto.build.debug=-g3 -Og -fno-lto
+168.menu.debug.no-ltoo0=Debug (no LTO, no comp. optim.)
+168.menu.debug.no-ltoo0.build.debug=-g3 -O0 -fno-lto
+168.build.extra_flags={build.debug} {build.clkpr}
+
+88.menu.debug.os=No Debug
+88.menu.debug.os.build.debug=
+88.menu.debug.og=Debug
+88.menu.debug.og.build.debug=-g3 -Og
+88.menu.debug.o0=Debug (no comp. optim.)
+88.menu.debug.o0.build.debug=-g3 -O0
+88.menu.debug.no-lto=Debug (no LTO)
+88.menu.debug.no-lto.build.debug=-g3 -Og -fno-lto
+88.menu.debug.no-ltoo0=Debug (no LTO, no comp. optim.)
+88.menu.debug.no-ltoo0.build.debug=-g3 -O0 -fno-lto
+88.build.extra_flags={build.debug} {build.clkpr}
+
+48.menu.debug.os=No Debug
+48.menu.debug.os.build.debug=
+48.menu.debug.og=Debug
+48.menu.debug.og.build.debug=-g3 -Og
+48.menu.debug.o0=Debug (no comp. optim.)
+48.menu.debug.o0.build.debug=-g3 -O0
+48.menu.debug.no-lto=Debug (no LTO)
+48.menu.debug.no-lto.build.debug=-g3 -Og -fno-lto
+48.menu.debug.no-ltoo0=Debug (no LTO, no comp. optim.)
+48.menu.debug.no-ltoo0.build.debug=-g3 -O0 -fno-lto
+48.build.extra_flags={build.debug} {build.clkpr}
+
+8.menu.debug.os=No Debug
+8.menu.debug.os.build.debug=
+8.debug.executable=
