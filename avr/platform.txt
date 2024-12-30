@@ -10,8 +10,7 @@ version=3.0.3
 # AVR compile variables
 # ---------------------
 
-# EXPERIMENTAL feature: optimization flags
-#  - this is alpha and may be subject to change without notice
+# optimization flags for debugging
 compiler.optimization_flags=-Os
 compiler.optimization_flags.release=-Os
 compiler.optimization_flags.debug=-Og -g3
@@ -165,4 +164,9 @@ debug.server.openocd.path={debug.toolchain.path}/dw-server
 debug.server.openocd.script=doesnotmatter
 debug.cortex-debug.custom.gdbPath={debug.toolchain.path}/avr-gdb
 debug.cortex-debug.custom.objdumpPath={runtime.tools.avr-gcc.path}/avr-objdump
-debug.cortex-debug.custom.serverArgs.0=-sdebug.cortex-debug.custom.serverArgs.1=noopdebug.cortex-debug.custom.serverArgs.2=-pdebug.cortex-debug.custom.serverArgs.3=50000debug.cortex-debug.custom.postLaunchCommands.0=monitor mcu {build.mcu}debug.cortex-debug.custom.postLaunchCommands.1=break setup
+debug.cortex-debug.custom.serverArgs.0=-s
+debug.cortex-debug.custom.serverArgs.1=noop
+debug.cortex-debug.custom.serverArgs.2=-p
+debug.cortex-debug.custom.serverArgs.3=50000
+debug.cortex-debug.custom.postLaunchCommands.0=monitor mcu {build.mcu}
+debug.cortex-debug.custom.postLaunchCommands.1=break setup
