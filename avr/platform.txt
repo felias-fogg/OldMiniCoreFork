@@ -169,4 +169,5 @@ debug.cortex-debug.custom.serverArgs.1=noop
 debug.cortex-debug.custom.serverArgs.2=-p
 debug.cortex-debug.custom.serverArgs.3=50000
 debug.cortex-debug.custom.postLaunchCommands.0=monitor mcu {build.mcu}
-debug.cortex-debug.custom.postLaunchCommands.1=break setup
+debug.cortex-debug.custom.postLaunchCommands.1=tbreak setup
+debug.cortex-debug.custom.preRestartCommands.0=tbreak setup
