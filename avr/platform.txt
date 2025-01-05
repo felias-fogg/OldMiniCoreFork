@@ -5,7 +5,7 @@
 # https://arduino.github.io/arduino-cli/latest/platform-specification/
 
 name=MiniCore
-version=3.0.3
+version=3.0.3+debug-2.1
 
 # AVR compile variables
 # ---------------------
@@ -163,7 +163,7 @@ debug.server.openocd.path={debug.toolchain.path}/dw-server
 #doesn't matter, but should be specified so that cortex-debug is happy
 debug.server.openocd.script=doesnotmatter
 debug.cortex-debug.custom.gdbPath={debug.toolchain.path}/avr-gdb
-debug.cortex-debug.custom.objdumpPath={runtime.tools.avr-gcc.path}/avr-objdump
+debug.cortex-debug.custom.objdumpPath={runtime.tools.avr-gcc.path}/bin/avr-objdump
 debug.cortex-debug.custom.serverArgs.0=-s
 debug.cortex-debug.custom.serverArgs.1=noop
 debug.cortex-debug.custom.serverArgs.2=-p
