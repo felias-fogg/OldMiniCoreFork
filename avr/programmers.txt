@@ -31,6 +31,15 @@ arduinoasisp.program.speed=19200
 arduinoasisp.program.tool=avrdude
 arduinoasisp.program.extra_params=-P{serial.port} -b{program.speed}
 
+arduinoasispfast.name=Arduino as ISP fast
+arduinoasispfast.communication=serial
+arduinoasispfast.protocol=stk500v1
+arduinoasispfast.speed=19200
+arduinoasispfast.program.protocol=stk500v1
+arduinoasispfast.program.speed=115200
+arduinoasispfast.program.tool=avrdude
+arduinoasispfast.program.extra_params=-P{serial.port} -b{program.speed}
+
 xplainedmini.name=Xplained Mini
 xplainedmini.communication=usb
 xplainedmini.protocol=xplainedmini
