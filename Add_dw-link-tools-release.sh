@@ -5,7 +5,7 @@ REALAUTHOR=MCUDude   # Real author name
 REPOSITORY=MiniCore # Github repo name
 SUFFIX=_plus_Debug
 
-DWTOOLS_VERSION="1.3.0"
+DWTOOLS_VERSION="1.3.1"
 
 OS_PLATFORM1="Linux_ARMv6"
 OS_PLATFORM2="Linux_ARM64"
@@ -36,28 +36,28 @@ URL5=https://felias-fogg.github.io/dw-tools/${FILE5}
 URL6=https://felias-fogg.github.io/dw-tools/${FILE6}
 
 # Download files
-wget --no-verbose $URL1
+#wget --no-verbose $URL1
 wget --no-verbose $URL2
 wget --no-verbose $URL3
 wget --no-verbose $URL4
 #wget --no-verbose $URL5
 wget --no-verbose $URL6
 
-SIZE1=$(wc -c $FILE1 | awk '{print $1}')
+#SIZE1=$(wc -c $FILE1 | awk '{print $1}')
 SIZE2=$(wc -c $FILE2 | awk '{print $1}')
 SIZE3=$(wc -c $FILE3 | awk '{print $1}')
 SIZE4=$(wc -c $FILE4 | awk '{print $1}')
 #SIZE5=$(wc -c $FILE5 | awk '{print $1}')
 SIZE6=$(wc -c $FILE6 | awk '{print $1}')
 
-SHASUM1=$(shasum -a 256 $FILE1 | awk '{print "SHA-256:"$1}')
+#SHASUM1=$(shasum -a 256 $FILE1 | awk '{print "SHA-256:"$1}')
 SHASUM2=$(shasum -a 256 $FILE2 | awk '{print "SHA-256:"$1}')
 SHASUM3=$(shasum -a 256 $FILE3 | awk '{print "SHA-256:"$1}')
 SHASUM4=$(shasum -a 256 $FILE4 | awk '{print "SHA-256:"$1}')
 #SHASUM5=$(shasum -a 256 $FILE5 | awk '{print "SHA-256:"$1}')
 SHASUM6=$(shasum -a 256 $FILE6 | awk '{print "SHA-256:"$1}')
 
-printf "File1: ${FILE1}, Size: ${SIZE1}, SHA256: ${SHASUM1}, URL1: ${URL1}\n"
+#printf "File1: ${FILE1}, Size: ${SIZE1}, SHA256: ${SHASUM1}, URL1: ${URL1}\n"
 printf "File2: ${FILE2}, Size: ${SIZE2}, SHA256: ${SHASUM2}, URL2: ${URL2}\n"
 printf "File3: ${FILE3}, Size: ${SIZE3}, SHA256: ${SHASUM3}, URL3: ${URL3}\n"
 printf "File4: ${FILE4}, Size: ${SIZE4}, SHA256: ${SHASUM4}, URL4: ${URL4}\n"
@@ -70,32 +70,26 @@ cp "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json" "package_${REALAUTH
 
 jq -r                                  \
 --arg dwtools_version $DWTOOLS_VERSION \
---arg os_plaform1 $OS_PLATFORM1 \
 --arg os_plaform2 $OS_PLATFORM2 \
 --arg os_plaform3 $OS_PLATFORM3 \
 --arg os_plaform4 $OS_PLATFORM5 \
 --arg os_plaform6 $OS_PLATFORM6 \
---arg host1       $HOST1        \
 --arg host2       $HOST2        \
 --arg host3       $HOST3        \
 --arg host4       $HOST4        \
 --arg host6       $HOST6        \
---arg file1       $FILE1        \
 --arg file2       $FILE2        \
 --arg file3       $FILE3        \
 --arg file4       $FILE4        \
 --arg file6       $FILE6        \
---arg size1       $SIZE1        \
 --arg size2       $SIZE2        \
 --arg size3       $SIZE3        \
 --arg size4       $SIZE4        \
 --arg size6       $SIZE6        \
---arg shasum1     $SHASUM1      \
 --arg shasum2     $SHASUM2      \
 --arg shasum3     $SHASUM3      \
 --arg shasum4     $SHASUM4      \
 --arg shasum6     $SHASUM6      \
---arg url1        $URL1         \
 --arg url2        $URL2         \
 --arg url3        $URL3         \
 --arg url4        $URL4         \
@@ -105,13 +99,6 @@ jq -r                                  \
   "name": "dw-link-tools",
   "version": $dwtools_version,
   "systems": [
-    {
-      "size": $size1,
-      "checksum": $shasum1,
-      "host": $host1,
-      "archiveFileName": $file1,
-      "url": $url1
-    },
     {
       "size": $size2,
       "checksum": $shasum2,
@@ -143,7 +130,7 @@ jq -r                                  \
   ]
 }' "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json.tmp" > "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json"
 
-rm $FILE1
+#rm $FILE1
 rm $FILE2
 rm $FILE3
 rm $FILE4

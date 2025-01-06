@@ -97,7 +97,7 @@ jq -r                                   \
     {
       "packager": "MiniCore",
       "name": "dw-link-tools",
-      "version": "1.3.0"
+      "version": "1.3.1"
     }   
   ]
 }' "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json.tmp" > "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json"
