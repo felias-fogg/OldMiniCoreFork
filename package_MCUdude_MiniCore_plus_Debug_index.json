@@ -1054,6 +1054,55 @@
               "version": "1.3.1"
             }
           ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "3.0.3+debug-2.2",
+          "category": "Contributed",
+          "url": "https://felias-fogg.github.io/MiniCore/MiniCore-3.0.3+debug-2.2.tar.bz2",
+          "archiveFileName": "MiniCore-3.0.3+debug-2.2.tar.bz2",
+          "checksum": "SHA-256:a08219332d974ff5067ea60f3adfac9fc4e2cdbb4bcce62fc85ed1a81b96f1d9",
+          "size": "612427",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "8.0-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "dw-link-tools",
+              "version": "1.3.1"
+            }
+          ]
         }
       ],
       "tools": [
