@@ -1296,29 +1296,29 @@
           "version": "1.3.1",
           "systems": [
             {
-              "size": "8646257",
-              "checksum": "SHA-256:a4978d8306e8839416e5824786322e2a3450b8d0610b65d8c6f8970bc2fb3e72",
+              "size": "8646199",
+              "checksum": "SHA-256:7a6e2d770dfac5fac5fd0b2466645986b266270b3b8db836d2cd4c196ce7963d",
               "host": "aarch64-linux-gnu",
               "archiveFileName": "dw-link-tools-1.3.1_aarch64-linux-gnu.tar.bz2",
               "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.1_aarch64-linux-gnu.tar.bz2"
             },
             {
-              "size": "12977117",
-              "checksum": "SHA-256:3ca59c56340b59a9c703fddb6cda0251620e687bffe0b21379f9d14cd4c105f4",
+              "size": "12977063",
+              "checksum": "SHA-256:f14f2a1425b5ecf8adf57699472e80e10312e377ffd71eb755ed8e3891b92559",
               "host": "x86_64-apple-darwin",
               "archiveFileName": "dw-link-tools-1.3.1_x86_64-apple-darwin.tar.bz2",
               "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.1_x86_64-apple-darwin.tar.bz2"
             },
             {
-              "size": "4259840",
-              "checksum": "SHA-256:3ded97787c5339b01e6aa843bf345af4b6760c0e5d21d1495ded5b2b50f7a925",
+              "size": "7538166",
+              "checksum": "SHA-256:b95f7edf94fdf59f3943ae3d6b31fbcafcd23caf2ee629576f38a3e4ab78ea53",
               "host": "x86_64-linux-gnu",
               "archiveFileName": "dw-link-tools-1.3.1_x86_64-linux-gnu.tar.bz2",
               "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.1_x86_64-linux-gnu.tar.bz2"
             },
             {
-              "size": "8754203",
-              "checksum": "SHA-256:aeb2c2f844bba27cd67f7985c3ab49c30ff92ea03b254db20d5df90a704fbf0b",
+              "size": "8483266",
+              "checksum": "SHA-256:f08c1201c1c5ec01f747116bfc4c6c413fc4e0417517ccb764ff8773e2fa66cf",
               "host": "i686-mingw32",
               "archiveFileName": "dw-link-tools-1.3.1_i686-mingw32.tar.bz2",
               "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.1_i686-mingw32.tar.bz2"
