@@ -137,3 +137,7 @@ rm $FILE4
 #rm $FILE5
 rm $FILE6
 rm "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json.tmp"
+
+# Copy index file to old naming scheme (without suffix)
+cp  "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json"  "package_${REALAUTHOR}_${REPOSITORY}_index.json"
+

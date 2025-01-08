@@ -1,1 +1,1331 @@
-package_MCUdude_MiniCore_plus_Debug_index.json
+{
+  "packages": [
+    {
+      "name": "MiniCore",
+      "maintainer": "MCUdude",
+      "websiteURL": "https://github.com/MCUdude/MiniCore",
+      "email": "",
+      "help": {
+        "online": "https://forum.arduino.cc/index.php?topic=412070"
+      },
+      "platforms": [
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-1.0.0.tar.gz",
+          "archiveFileName": "MiniCore-1.0.0.tar.gz",
+          "checksum": "SHA-256:a3c5f9f496004bddb5969a473f155ef845178e92a79dc47392ea6356cfb6ba4b",
+          "size": "86612",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A"
+            },
+            {
+              "name": "ATmega168/P/PA/A"
+            },
+            {
+              "name": "ATmega88/P/PA/A"
+            },
+            {
+              "name": "ATmega48/P/PA/A"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-1.0.1.tar.gz",
+          "archiveFileName": "MiniCore-1.0.1.tar.gz",
+          "checksum": "SHA-256:2191d09c4c7404f4a015658d177a30206ec241e38f264d3cabb1e0639bf0afd5",
+          "size": "87948",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A"
+            },
+            {
+              "name": "ATmega168/P/PA/A"
+            },
+            {
+              "name": "ATmega88/P/PA/A"
+            },
+            {
+              "name": "ATmega48/P/PA/A"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-1.0.2.tar.gz",
+          "archiveFileName": "MiniCore-1.0.2.tar.gz",
+          "checksum": "SHA-256:0c647d1c89a4dc67458286ae3bbb284b97874a3e7689e73aa6ca132b46e01462",
+          "size": "75383",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A"
+            },
+            {
+              "name": "ATmega168/P/PA/A"
+            },
+            {
+              "name": "ATmega88/P/PA/A"
+            },
+            {
+              "name": "ATmega48/P/PA/A"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-1.0.3.tar.bz2",
+          "archiveFileName": "MiniCore-1.0.3.tar.bz2",
+          "checksum": "SHA-256:164520b03bc9b1c1d2b2e722b5135a9793c9f0748d30558001bbb7836c886867",
+          "size": "73128",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A"
+            },
+            {
+              "name": "ATmega168/P/PA/A"
+            },
+            {
+              "name": "ATmega88/P/PA/A"
+            },
+            {
+              "name": "ATmega48/P/PA/A"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "1.0.4",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-1.0.4.tar.bz2",
+          "archiveFileName": "MiniCore-1.0.4.tar.bz2",
+          "checksum": "SHA-256:ed37fee5cfe14e43851b801d0f9825097cce3e57cce6a2d8da70d817db864c21",
+          "size": "79523",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A"
+            },
+            {
+              "name": "ATmega168/P/PA/A"
+            },
+            {
+              "name": "ATmega88/P/PA/A"
+            },
+            {
+              "name": "ATmega48/P/PA/A"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.0.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.0.tar.bz2",
+          "checksum": "SHA-256:ceeaf4384866d6aa9cb6eb518dad6d740c15daebfef16332c0f55ee2bc3007dc",
+          "size": "232088",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.1.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.1.tar.bz2",
+          "checksum": "SHA-256:74a56a7162339e2cb2b9ccdbf56a3e3b3942dcb3d99ad14a8ba55f21030ead76",
+          "size": "235937",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.2",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.2.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.2.tar.bz2",
+          "checksum": "SHA-256:0d1bed5368d1e455292f6bbd4dc61cddd54a172f9bffa7faf304620a3d2b15f0",
+          "size": "331212",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.3",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.3.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.3.tar.bz2",
+          "checksum": "SHA-256:7ddf008ae7c3882246afe74c3022aa442bdb1596c4d49a47dbe98f4598d7f68a",
+          "size": "365064",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.4",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.4.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.4.tar.bz2",
+          "checksum": "SHA-256:a858238e14d56832e5ba53afe3c139eb88dbdf7eb63113870adea918ecf6e832",
+          "size": "594457",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.5",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.5.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.5.tar.bz2",
+          "checksum": "SHA-256:d5e809b5571946b986e2790cfc7c9992ace9a778e6a5b0eea4518929eb280017",
+          "size": "544555",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.6",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.6.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.6.tar.bz2",
+          "checksum": "SHA-256:5d73947b571ad89c3b30d7834c59fe2eeaf9f4c4cfa1add8d9119ecd46d37080",
+          "size": "559849",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.7",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.7.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.7.tar.bz2",
+          "checksum": "SHA-256:7014cfb626e87cc00489a2012fcecbf680d78302e3119daa327fd650593ddea7",
+          "size": "573826",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.8",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.8.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.8.tar.bz2",
+          "checksum": "SHA-256:e29731e66d0c32e964ec33f2464b67291397aa885b539e30580bb480aa33d2e2",
+          "size": "574707",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.0.9",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.0.9.tar.bz2",
+          "archiveFileName": "MiniCore-2.0.9.tar.bz2",
+          "checksum": "SHA-256:7ba94dbcc589469107a16ce517b0dbd31235b07d9e73a16d52678a6277157ea7",
+          "size": "574792",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.1.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.1.0.tar.bz2",
+          "archiveFileName": "MiniCore-2.1.0.tar.bz2",
+          "checksum": "SHA-256:07e01d468545024f2d924fa4a0d1427afe886af561fb7120a77634dd38c664d9",
+          "size": "577870",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.1.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.1.1.tar.bz2",
+          "archiveFileName": "MiniCore-2.1.1.tar.bz2",
+          "checksum": "SHA-256:8f55ad4357aa9e0698340417ace58e59bbb5bf0c02d475bef5f056bf9f0e18cf",
+          "size": "578244",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.1.2",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.1.2.tar.bz2",
+          "archiveFileName": "MiniCore-2.1.2.tar.bz2",
+          "checksum": "SHA-256:137d642293ea90de11882c7b0f04651e97194463ff3b646b4cfe3191afec7e81",
+          "size": "583784",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.1.3",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.1.3.tar.bz2",
+          "archiveFileName": "MiniCore-2.1.3.tar.bz2",
+          "checksum": "SHA-256:6308474de443f556efd8698bb5f480441e3182b6397c8d29fd9902dd26efa5d8",
+          "size": "585439",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.2.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.2.0.tar.bz2",
+          "archiveFileName": "MiniCore-2.2.0.tar.bz2",
+          "checksum": "SHA-256:5da29e586cf794af8e361f5b2236a896ada63ba579a8be14acc999205a14b95c",
+          "size": "600637",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "7.1-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.2.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.2.1.tar.bz2",
+          "archiveFileName": "MiniCore-2.2.1.tar.bz2",
+          "checksum": "SHA-256:1da6b88b191d7d804acd982ebc15dd35d227d123791805024abda6dd5ec690b9",
+          "size": "602320",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "7.1-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.2.2",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-2.2.2.tar.bz2",
+          "archiveFileName": "MiniCore-2.2.2.tar.bz2",
+          "checksum": "SHA-256:eb8a5829b94bf108e2d7ad31f14331c1c13d56d564b2dc584bb12bd1b34c9180",
+          "size": "602202",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "7.1-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "2.3.0+debug",
+          "category": "Contributed",
+          "url": "https://felias-fogg.github.io/MiniCore/MiniCore-2.3.0+debug.tar.bz2",
+          "archiveFileName": "MiniCore-2.3.0+debug.tar.bz2",
+          "checksum": "SHA-256:53a6ee2e977219e939ce830e14c4fc745b104a40e38a9f083329bc11a3889802",
+          "size": "601165",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "7.1-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "3.0.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-3.0.0.tar.bz2",
+          "archiveFileName": "MiniCore-3.0.0.tar.bz2",
+          "checksum": "SHA-256:a4f5bfce52113631b35001dfee5db01ec323fc1dda2ead1cd68c729b590df7ac",
+          "size": "662999",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "7.2-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "3.0.1",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-3.0.1.tar.bz2",
+          "archiveFileName": "MiniCore-3.0.1.tar.bz2",
+          "checksum": "SHA-256:71ac0ee6ccb64f1583dd875f9b8477d96bd788c602fe65020322fe03dd52402b",
+          "size": "663018",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "7.2-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "3.0.2",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-3.0.2.tar.bz2",
+          "archiveFileName": "MiniCore-3.0.2.tar.bz2",
+          "checksum": "SHA-256:e508bc0afa723c113d325bbc932418903c15cf6f62663b7f6aeea1c16b4588c7",
+          "size": "663031",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "7.2-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "3.0.3",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-3.0.3.tar.bz2",
+          "archiveFileName": "MiniCore-3.0.3.tar.bz2",
+          "checksum": "SHA-256:0573d026ec3aa8ea7dccd39398a664eb826ca78813c97e1ef13ef8e473cc1141",
+          "size": "609477",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "8.0-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "3.0.3+debug-2.0",
+          "category": "Contributed",
+          "url": "https://felias-fogg.github.io/MiniCore/MiniCore-3.0.3+debug-2.0.tar.bz2",
+          "archiveFileName": "MiniCore-3.0.3+debug-2.0.tar.bz2",
+          "checksum": "SHA-256:2caef5b500deda2b1ee21d2af96e9b25f73f56e74bcaa554b30ecc15cb140d70",
+          "size": "612422",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "8.0-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "dw-link-tools",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "3.0.3+debug-2.1",
+          "category": "Contributed",
+          "url": "https://felias-fogg.github.io/MiniCore/MiniCore-3.0.3+debug-2.1.tar.bz2",
+          "archiveFileName": "MiniCore-3.0.3+debug-2.1.tar.bz2",
+          "checksum": "SHA-256:ff4de1556c78fb84a16783a50c96643a8edaea196d64154639626e0020587325",
+          "size": "612228",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "8.0-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "dw-link-tools",
+              "version": "1.3.1"
+            }
+          ]
+        },
+        {
+          "name": "MiniCore",
+          "architecture": "avr",
+          "version": "3.0.3+debug-2.2",
+          "category": "Contributed",
+          "url": "https://felias-fogg.github.io/MiniCore/MiniCore-3.0.3+debug-2.2.tar.bz2",
+          "archiveFileName": "MiniCore-3.0.3+debug-2.2.tar.bz2",
+          "checksum": "SHA-256:a08219332d974ff5067ea60f3adfac9fc4e2cdbb4bcce62fc85ed1a81b96f1d9",
+          "size": "612427",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega168/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega88/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega48/P/PA/A/PB"
+            },
+            {
+              "name": "ATmega8"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "8.0-arduino.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "dw-link-tools",
+              "version": "1.3.1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "avrdude",
+          "version": "7.1-arduino.1",
+          "systems": [
+            {
+              "size": "1161418",
+              "checksum": "SHA-256:6c842593530e8ee463760fca6c6244eeff5718fac6ed5798386a2d9704735fb5",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrdude_7.1-arduino.1_Linux_ARMv6.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Linux_ARMv6.tar.gz"
+            },
+            {
+              "size": "1261196",
+              "checksum": "SHA-256:37743def85b0fa70b566797d889e6d649f644ad7fa67a3e151b6e61aba9a0d0a",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avrdude_7.1-arduino.1_Linux_ARM64.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Linux_ARM64.tar.gz"
+            },
+            {
+              "size": "834101",
+              "checksum": "SHA-256:436a7a5f467774cdd39683d2226314ba90485b0b08c629602004f4bbfdddf575",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "avrdude_7.1-arduino.1_macOS_64bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_macOS_64bit.tar.gz"
+            },
+            {
+              "size": "1169286",
+              "checksum": "SHA-256:11f6c709d9f950e35993ca27ed870a86711d7093255a9e4b4463160f1778fd19",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude_7.1-arduino.1_Linux_64bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Linux_64bit.tar.gz"
+            },
+            {
+              "size": "1170712",
+              "checksum": "SHA-256:f5eff5141c9385b56ca3be780453149c912abf7b5bf87de8398f661a1369d305",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude_7.1-arduino.1_Linux_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Linux_32bit.tar.gz"
+            },
+            {
+              "size": "1591591",
+              "checksum": "SHA-256:35d3b917573a91b7a7e5805919a1fa3bc033541e2941b710bfc627071c738731",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude_7.1-arduino.1_Windows_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.1-arduino.1_Windows_32bit.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "avrdude",
+          "version": "7.2-arduino.1",
+          "systems": [
+            {
+              "size": "1243922",
+              "checksum": "SHA-256:b5b88e4f52c0edb861f5ae54acbd752f9ecd562a4db4d821ab8c276ee5696dab",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrdude_7.2-arduino.1_Linux_ARMv6.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_ARMv6.tar.gz"
+            },
+            {
+              "size": "1348250",
+              "checksum": "SHA-256:a3862e6a38668c2688dc0822b16c3f824612cc606259b6813bc5778d36c92ba9",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avrdude_7.2-arduino.1_Linux_ARM64.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_ARM64.tar.gz"
+            },
+            {
+              "size": "928946",
+              "checksum": "SHA-256:256cbde856714a18c11b4c99f6b00eed65e4208c92425fa9cfd75a5bdfb6ab09",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "avrdude_7.2-arduino.1_macOS_64bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_macOS_64bit.tar.gz"
+            },
+            {
+              "size": "1256881",
+              "checksum": "SHA-256:25e1b568757d9a58b9663e4493ffc04b9e6d690535c9c1e6c1db7d1ecffb5eff",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude_7.2-arduino.1_Linux_64bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_64bit.tar.gz"
+            },
+            {
+              "size": "1252284",
+              "checksum": "SHA-256:86a811f6ba2bebbb717a524fcff495f0ebb146abcd15d341a10d867b8e8c83fd",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude_7.2-arduino.1_Linux_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Linux_32bit.tar.gz"
+            },
+            {
+              "size": "1682746",
+              "checksum": "SHA-256:5536c9fcb41f4a36aa55b3711a0d74943a401261b15cc8aae2473c30ff292021",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude_7.2-arduino.1_Windows_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_7.2-arduino.1_Windows_32bit.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "avrdude",
+          "version": "8.0-arduino.1",
+          "systems": [
+            {
+              "size": "1441658",
+              "checksum": "SHA-256:66ae53dac08b2db2f065d7b6b2f60ff62d2a85907613c7b2988fdd1922950b5d",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrdude_8.0-arduino.1_Linux_ARMv6.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_8.0-arduino.1_Linux_ARMv6.tar.gz"
+            },
+            {
+              "size": "1565761",
+              "checksum": "SHA-256:031f212bdcb77e2ea13895f07ab4a0c254963f8f1bbd3b8797d3363a6a2e95e3",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avrdude_8.0-arduino.1_Linux_ARM64.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_8.0-arduino.1_Linux_ARM64.tar.gz"
+            },
+            {
+              "size": "1173108",
+              "checksum": "SHA-256:8a36cf441a3ce21622eb30b40f0b71d27864b30ea851cb795ae654ee10e2c132",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "avrdude_8.0-arduino.1_macOS_64bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_8.0-arduino.1_macOS_64bit.tar.gz"
+            },
+            {
+              "size": "1476932",
+              "checksum": "SHA-256:1d2edadb07e070fcd016e8c802e961e30bfa606c2db63625c930526e7044aaa6",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude_8.0-arduino.1_Linux_64bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_8.0-arduino.1_Linux_64bit.tar.gz"
+            },
+            {
+              "size": "1452068",
+              "checksum": "SHA-256:622358355a17cb400060cffbe1f8fc2fd9cea2ee883ab1b7766fd8219e0fc0f9",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude_8.0-arduino.1_Linux_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_8.0-arduino.1_Linux_32bit.tar.gz"
+            },
+            {
+              "size": "1890359",
+              "checksum": "SHA-256:833aa1a66a8e70cd597fcfdbd7e559a91a00eca1d7aa3be2ce9bcadf7ccb987c",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude_8.0-arduino.1_Windows_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_8.0-arduino.1_Windows_32bit.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "dw-link-tools",
+          "version": "1.3.0",
+          "systems": [
+            {
+              "size": "9674725",
+              "checksum": "SHA-256:3584b50596281b370fdc4a1bfa6b847823064774219db71837214a4c110914a7",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "dw-link-tools-1.3.0_arm-linux-gnueabihf.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.0_arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size": "8646102",
+              "checksum": "SHA-256:ddf4462c429a68c70bbd385cb5514a2d2bc5d63fad0ae5b664b0f1af3eebbc55",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "dw-link-tools-1.3.0_aarch64-linux-gnu.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.0_aarch64-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "12845123",
+              "checksum": "SHA-256:b8c4478ad31bc503d6b207a4dc9ceed5b0ef2276bba0022d39f17f947cf769f4",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "dw-link-tools-1.3.0_x86_64-apple-darwin.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.0_x86_64-apple-darwin.tar.bz2"
+            },
+            {
+              "size": "7541066",
+              "checksum": "SHA-256:d0332f19e0141a66b826382ac71441c5248db2701b69c8b584c703326031cb46",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "dw-link-tools-1.3.0_x86_64-linux-gnu.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.0_x86_64-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "8754635",
+              "checksum": "SHA-256:c2fde6dc7c58121d98fe006b836e71bcd4f6d53b313646c15186b72297c49942",
+              "host": "i686-mingw32",
+              "archiveFileName": "dw-link-tools-1.3.0_i686-mingw32.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.0_i686-mingw32.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "dw-link-tools",
+          "version": "1.3.1",
+          "systems": [
+            {
+              "size": "8646257",
+              "checksum": "SHA-256:a4978d8306e8839416e5824786322e2a3450b8d0610b65d8c6f8970bc2fb3e72",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "dw-link-tools-1.3.1_aarch64-linux-gnu.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.1_aarch64-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "12977117",
+              "checksum": "SHA-256:3ca59c56340b59a9c703fddb6cda0251620e687bffe0b21379f9d14cd4c105f4",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "dw-link-tools-1.3.1_x86_64-apple-darwin.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.1_x86_64-apple-darwin.tar.bz2"
+            },
+            {
+              "size": "4259840",
+              "checksum": "SHA-256:3ded97787c5339b01e6aa843bf345af4b6760c0e5d21d1495ded5b2b50f7a925",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "dw-link-tools-1.3.1_x86_64-linux-gnu.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.1_x86_64-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "8754203",
+              "checksum": "SHA-256:aeb2c2f844bba27cd67f7985c3ab49c30ff92ea03b254db20d5df90a704fbf0b",
+              "host": "i686-mingw32",
+              "archiveFileName": "dw-link-tools-1.3.1_i686-mingw32.tar.bz2",
+              "url": "https://felias-fogg.github.io/dw-tools/dw-link-tools-1.3.1_i686-mingw32.tar.bz2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

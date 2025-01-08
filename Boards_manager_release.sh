@@ -104,3 +104,6 @@ jq -r                                   \
 
 # Remove files that's no longer needed
 rm -rf "$REPOSITORY-${DOWNLOADED_FILE#"v"}" "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json.tmp"
+
+# Copy index file to old naming scheme (without suffix)
+cp  "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json"  "package_${REALAUTHOR}_${REPOSITORY}_index.json"

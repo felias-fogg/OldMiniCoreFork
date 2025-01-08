@@ -1,7 +1,9 @@
 #!/bin/bash
 
-AUTHOR=MCUdude      # Github username
+AUTHOR=felias-fogg  # Github username
+REALAUTHOR=MCUDude   # Real author name
 REPOSITORY=MiniCore # Github repo name
+SUFFIX=_plus_Debug
 
 AVRDUDE_VERSION="8.0-arduino.1"
 
@@ -62,7 +64,7 @@ printf "File4: ${FILE4}, Size: ${SIZE4}, SHA256: ${SHASUM4}, URL4: ${URL4}\n"
 printf "File5: ${FILE5}, Size: ${SIZE5}, SHA256: ${SHASUM5}, URL5: ${URL5}\n"
 printf "File6: ${FILE6}, Size: ${SIZE6}, SHA256: ${SHASUM6}, URL6: ${URL6}\n"
 
-cp "package_${AUTHOR}_${REPOSITORY}_index.json" "package_${AUTHOR}_${REPOSITORY}_index.json.tmp"
+cp "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json" "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json.tmp"
 
 jq -r                                  \
 --arg avrdude_version $AVRDUDE_VERSION \
@@ -150,7 +152,7 @@ jq -r                                  \
       "url": $url6
     }
   ]
-}' "package_${AUTHOR}_${REPOSITORY}_index.json.tmp" > "package_${AUTHOR}_${REPOSITORY}_index.json"
+}' "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json.tmp" > "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json"
 
 rm $FILE1
 rm $FILE2
@@ -158,4 +160,7 @@ rm $FILE3
 rm $FILE4
 rm $FILE5
 rm $FILE6
-rm "package_${AUTHOR}_${REPOSITORY}_index.json.tmp"
+rm "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json.tmp"
+
+# Copy index file to old naming scheme (without suffix)
+cp  "package_${REALAUTHOR}_${REPOSITORY}${SUFFIX}_index.json"  "package_${REALAUTHOR}_${REPOSITORY}_index.json"
